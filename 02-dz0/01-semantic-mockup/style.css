@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+header {
+	background-color: red;
+	text-align: center;
+	height: 50px;
+	padding-top: 10px;
+	margin-bottom: 30px;	
+}
+
+nav {
+	display: block;
+	background-color: orange;
+	height: 80px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 40px;
+}
+
+nav a {
+	margin: 10px;
+}
+
+main {
+	background-color: green;
+	padding: 10px;
+}
+
+article {
+	background-color: blue;
+	margin: 5px;
+	padding: 20px;
+}
+article h2 {
+	padding-bottom: 15px;
+}
+footer {
+	background-color:darkorchid;
+	height: 30px;
+	font-size: 25px;
+	text-align: center;
+}
