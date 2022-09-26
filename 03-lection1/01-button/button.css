@@ -10,13 +10,14 @@
 	padding: 14px 62px 15px;
 	box-sizing: border-box;
 	height: 48px;
-}
-.button_primary {
-	background: #4263EB;
-	color: #ffffff;
 	border: none;
 	cursor: pointer;
-	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: .3s;
+	color: #ffffff;
+}
+
+.button_primary {
+	background: #4263EB;
 }
 
 .button_primary:hover {
@@ -29,10 +30,6 @@
 
 .button_secondary {
 	background: #7048E8;
-	color: #FFFFFF;
-	border: none;
-	cursor: pointer;
-	transition: .3s;
 }
 
 .button_secondary:hover,
@@ -44,8 +41,6 @@
 .button_alternate {
 	border: 1px solid #ACB5BD;
 	background: #E5E5E5;
-	cursor: pointer;
-	transition: .3s;
 	color: #495059;
 }
 
