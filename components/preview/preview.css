@@ -1,4 +1,20 @@
 .preview {
-	height: 400px;
-	background: #f9fafc;
+	height: 1036px;
+	background: var(--gray-5);
+}
+
+.preview__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 68px;
+}
+
+.card {
+	width: 350px;
+	height: 367px;
+	background: var(--whiat);
+	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+	border-radius: 12px;
+	margin-bottom: 30px;
 }
