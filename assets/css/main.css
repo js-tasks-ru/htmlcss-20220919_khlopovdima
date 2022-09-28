@@ -10,9 +10,10 @@
 
 @import '../../components/container/container.css';
 
+@import '../../components/card/card.css';
+
 :root {
     --white: #ffffff;
-    --white-2: #E5E5E5;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
@@ -23,6 +24,8 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --gray-5: #F9FAFC;
+    --gray-6: #E5E5E5;
+
 
     --error: var(--red);
     --success: var(--blue);
