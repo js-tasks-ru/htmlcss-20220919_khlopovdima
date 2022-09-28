@@ -1,4 +1,12 @@
 .preview {
-	height: 400px;
-	background: #f9fafc;
+	height: 1036px;
+	background: var(--gray-5);
 }
+
+.preview__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 68px;
+}
+
