@@ -1,0 +1,50 @@
+.skeleton {
+	box-sizing: border-box;
+	width: 579px;
+	background: #ffffff;
+	border: 1px solid #ACB5BD;
+	border-radius: 8px;
+	padding: 24px 40px 32px 24px;
+}
+.skeleton__top {
+	display: flex;
+	align-items:center;
+}
+.skeleton__icon {
+	background: #DDE2E5;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+
+.skeleton__info {
+	margin-left: 16px;
+}
+.skeleton__info_title {
+	margin-top: 0;
+	width: 172px;
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__info_text {
+	margin-bottom: 0;
+	width: 257px;
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.skeleton__bottom {
+	display: inline-block;
+}
+.skeleton__bottom_title {
+	margin-top: 24px;
+	width: 515px;
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.skeleton__bottom_text {
+	margin-bottom: 0;
+	width: 475px;
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
