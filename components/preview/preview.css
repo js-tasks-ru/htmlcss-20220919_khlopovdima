@@ -1,5 +1,5 @@
 .preview {
-	height: 1036px;
+	padding: 60px 0;
 	background: var(--gray-5);
 }
 
@@ -7,6 +7,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-top: 68px;
+	gap: 30px;
 }
 
