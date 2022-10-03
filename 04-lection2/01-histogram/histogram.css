@@ -1,4 +1,4 @@
-.histogam {
+.histogram {
 	padding: 16px 24px;
 	font-family: 'Inter';
 	font-style: normal;
@@ -38,7 +38,6 @@
 }
 .histogram__bottom {
 	margin-top: 39px;
-	
 }
 
 .hictogram__chart {
