@@ -13,21 +13,22 @@
 	justify-content: space-between;
 }
 .histogram__top_orders {
+	display: block;
 }
-.histogram__top_orders .title{
+.histogram__title{
 	margin: 0;
 	font-size: 16px;
 	line-height: 24px;
 	color: #212429;
 	opacity: 0.8;
 }
-.histogram__top_orders .subtitle {
+.histogram__subtitle {
 	margin-top: 6px;
 	font-size: 20px;
 	line-height: 26px;
 	color: #212429;
 }
-.histogram__top_view {
+.histogram__link {
 	padding-top: 3px;
 	text-decoration: none;
 	font-size: 16px;
@@ -40,8 +41,6 @@
 	
 }
 
-.histogram__block {
-}
 .hictogram__chart {
 	display: flex;
 	gap: 1px;
@@ -49,6 +48,6 @@
 	align-items: flex-end;
 }
 .histogram__column {
-	width: 9px;
+	flex-basis: 9px;
 	background: #4263EB;
 }
