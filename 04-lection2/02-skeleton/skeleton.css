@@ -14,17 +14,20 @@
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
+	margin-right: 16px;
 }
 
-.skeleton__line {
-	flex-direction: column;
+.skeleton__lines {
+	display: block;
 	width: 100%;
-	margin-left: 16px;
+
+}
+.skeleton__line {
+	height: 20px;
+	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 .skeleton__line_small {
 	width: 33%;
-	height: 20px;
-	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 .skeleton__line_medium {
@@ -33,18 +36,11 @@
 	height: 20px;
 	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
-.skeleton__bottom {
-	flex-direction: column;
-	margin-top: 24px;
-	padding-bottom: 8px;
-}
-.skeleton__bottom_large { 
-	margin-bottom: 8px;
-	width: 100%;
-	height: 20px;
-	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-} 
 
-.skeleton__bottom_large:nth-child(2) { 
-	margin-bottom: 0;
+.skeleton__bottom {
+	margin-top: 24px;
+}
+
+.skeleton__line_large { 
+	margin-top: 8px;
 } 
