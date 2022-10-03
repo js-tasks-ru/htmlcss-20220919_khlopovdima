@@ -47,20 +47,17 @@
 	color: #334D6E;
 }
 
-.calendar__item:nth-child(29),
-.calendar__item:nth-child(34) {
+.calendar__item_blue {
 	color: #fff;
 	background: #4263EB;
 }
 
-.calendar__item:nth-child(30),
-.calendar__item:nth-child(31),
-.calendar__item:nth-child(32),
-.calendar__item:nth-child(33) {
+.calendar__item_grey {
 	background: rgba(160, 177, 245, 0.1); 
 	color: #334D6E; 
 }
 
 .calendar__item_day {
 	color: #90A0B7;
+	margin-bottom: 16px;
 }
