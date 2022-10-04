@@ -12,7 +12,7 @@
 	display: flex;
 	justify-content: space-between;
 }
-.histogram__top_orders {
+.histogram__orders {
 	display: block;
 }
 .histogram__title{
