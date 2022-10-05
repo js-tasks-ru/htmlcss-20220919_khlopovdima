@@ -12,6 +12,12 @@
 
 @import '../../components/card/card.css';
 
+@import '/components/navigation-element/navigation-element.css';
+
+@import '/components/menu/menu.css';
+
+@import '/components/preview-pages/preview-pages.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;

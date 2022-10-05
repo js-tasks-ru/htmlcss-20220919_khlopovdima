@@ -1,27 +1,26 @@
 body,
 html {
-	margin: 0;
 	height: 100%;
-	background: #E5E5E5;
-}
-.page {
+} 
+.pages {
 	display: grid;
 	height: 100%;
 	grid-template-rows: auto 1fr auto;
+	background: #E5E5E5;
 }
 .container {
 	width: 100%;
 	max-width: 1110px;
 	margin: 0 auto;
 }
-.header__page-component {
+.header__pages{
 	height: 82px;
 	background: #ffffff;
 }
 .header__logo {
 	margin-top: 24px;
 }
-.page__wrapper {
+.preview-pages__wrapper {
 	height: 100%;
 	display: grid;
 	width: 100%;
@@ -80,7 +79,7 @@ html {
 	padding-bottom: 24px;
 }
 
-.footer__page-component {
+.footer__pages {
 	margin-top: 92px;
 	text-transform: uppercase;
 	display: flex;
