@@ -22,11 +22,13 @@
 	background: #FFFFFF;
 	border-radius: 8px;
 }
+
 .modal__top {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 0;
 }
+
 .modal__top-title {
 	font-weight: 600;
 	font-size: 20px;
