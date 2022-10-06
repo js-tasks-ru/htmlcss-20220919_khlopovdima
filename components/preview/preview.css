@@ -1,13 +1,13 @@
 .preview {
-	height: 1036px;
-	background: var(--grey-5);
+	padding: 60px 0;
+	background: var(--gray-5);
 }
 
 .preview__cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-top: 68px;
+	gap: 30px;
 }
 
 
