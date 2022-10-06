@@ -16,8 +16,7 @@
 
 @import '/components/menu/menu.css';
 
-@import '/components/preview-pages/preview-pages.css';
-
+@import '/components/component-sectioin/component-section.css';
 
 :root {
     --white:   #ffffff;
