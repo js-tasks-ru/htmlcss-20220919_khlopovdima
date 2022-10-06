@@ -12,6 +12,10 @@
 
 @import '../../components/card/card.css';
 
+@import '/components/button/button.css';
+
+@import '/components/modal/modal.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -25,6 +29,7 @@
     --grey-4: #495057;
     --gray-5: #F9FAFC;
     --gray-6: #E5E5E5;
+    
 
 
     --error: var(--red);
