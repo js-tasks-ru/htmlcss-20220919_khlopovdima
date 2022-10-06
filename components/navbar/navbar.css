@@ -3,11 +3,11 @@
 	justify-content: space-between;
 	align-items: flex-start;
 }
-.navbar-wrapper {
+.navbar__wrapper {
 	display: flex;
 	flex-wrap: nowrap;
 }
-.navbar-menu {
+.navbar__menu {
 	display: flex;
 	gap: 24px;
 	font-family: 'Inter';
@@ -16,18 +16,18 @@
 	font-size: 16px;
 	line-height: 24px;
 }
-.navbar-menu__item a {
+.navbar__link a {
 	list-style: none;
 	text-decoration: none;
 	color: var(--grey-7);
 }
 
-.navbar-menu__item a:hover {
+.navbar__link a:hover {
 	color: var(--black);
 }
 
 
-.checkbox {
+.navbar__checkbox {
 	display: inline-block;
 	margin-left: 56px;
 	width: 20px;

@@ -1,9 +1,12 @@
 .menu {
-	margin-top: 62px;
 	width: 229px;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
+}
+
+.menu_components {
+	margin-top: 62px;
 }
 
 .menu__title {
