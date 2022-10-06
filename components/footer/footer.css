@@ -1,3 +1,24 @@
 .footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 200px;
+	font-family: 'Inter';
+	font-style: normal;
+}
+
+.footer__title {
+
+}
+
+.footer__title_size_small {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 92px;
+	text-transform: uppercase;
+	padding-bottom: 56px;
+	letter-spacing: 0.04em;
+	color: var(--grey-7);
+	text-align: center;
 }

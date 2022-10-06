@@ -1,14 +1,23 @@
 .header {
-	padding: 96px 0 77px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
 	background: var(--white);
+	padding: 25px 0 13px;
 }
 
+.header_size_small {
+	padding-bottom: 62px;
+	background: transparent;
+}
+.header_logo {
+
+}
 .header__title {
-	font-family: 'Inter';
-	font-style: normal;
 	font-weight: 500;
 	font-size: 50px;
 	line-height: 64px;
-	color: #212429;
+	color: var(--black);
 	margin: 0;
 }
