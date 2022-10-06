@@ -20,8 +20,6 @@
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
-	justify-content: center;
-	align-items:center;
 	font-family: 'Inter';
 	font-style: normal;
 	max-width: 428px;
