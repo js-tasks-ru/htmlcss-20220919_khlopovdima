@@ -26,6 +26,9 @@
 
 @import '/components/modal/modal.css';
 
+<<<<<<< HEAD
+=======
+@import '/components/avatar/avatar.css';
 
 :root {
     --white:   #ffffff;
@@ -44,14 +47,15 @@
     --grey-5:  #F9FAFC;
     --grey-6:  #E5E5E5;
     --grey-7:  #ACB5BD;
-
+    
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
 
-}
+>>>>>>> f229ab53bfa54bc65228e19463c2accdf45eb69d
+
 
 * {
     font-family: 'Roboto', sans-serif;
