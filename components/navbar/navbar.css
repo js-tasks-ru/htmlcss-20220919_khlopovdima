@@ -16,7 +16,7 @@
 	font-size: 16px;
 	line-height: 24px;
 }
-.navbar__link a {
+.navbar__link {
 	list-style: none;
 	text-decoration: none;
 	color: var(--grey-7);
