@@ -22,7 +22,7 @@
 	color: var(--grey-7);
 }
 
-.navbar__link a:hover {
+.navbar__link:hover {
 	color: var(--black);
 }
 
