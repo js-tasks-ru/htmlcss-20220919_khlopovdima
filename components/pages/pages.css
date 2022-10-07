@@ -1,0 +1,14 @@
+.pages {
+	display: grid;
+	height: 100%;
+	grid-template-rows: auto 1fr auto;
+	background: var(--grey-6);
+}
+
+.preview-pages__wrapper {
+	height: 100%;
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto 1fr;
+	grid-column-gap: 50px;
+}
