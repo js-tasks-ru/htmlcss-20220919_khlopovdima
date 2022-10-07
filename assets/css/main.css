@@ -16,6 +16,8 @@
 
 @import '/components/modal/modal.css';
 
+@import '/components/avatar/avatar.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
