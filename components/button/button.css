@@ -56,5 +56,5 @@
 }
 
 .button-modal {
-	background: #4263EB;
+	background: var(--blue-3);
 }
