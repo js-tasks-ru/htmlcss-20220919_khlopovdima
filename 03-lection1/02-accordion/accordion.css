@@ -10,7 +10,7 @@
 	margin-bottom: 0;
 }
 
-.accordion__item[open] .accordion__marker {
+.accordion__item[open] .icon {
 	transform: rotate(180deg);
 }
 
@@ -18,8 +18,12 @@
 	padding: 16px 0 8px 0;
 }
 
-.accordion__marker {
+.icon {
+	width: 25px;
+	height: 24px;
+	fill: #495057;
 	cursor: pointer;
+
 }
 
 .accordion__title {
