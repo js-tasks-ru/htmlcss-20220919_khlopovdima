@@ -10,7 +10,7 @@
 	margin-bottom: 0;
 }
 
-.accordion__item[open] .icon {
+.accordion__item[open] .accordion__icon {
 	transform: rotate(180deg);
 }
 
@@ -18,7 +18,7 @@
 	padding: 16px 0 8px 0;
 }
 
-.icon {
+.accordion__icon {
 	width: 25px;
 	height: 24px;
 	fill: #495057;
