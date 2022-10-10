@@ -1,7 +1,7 @@
 .modal__btn-close {
-	padding: 15px;
-	border: none;
-	background: transparent;
+	width: 20px;
+	height: 20px;
+	padding: 15px 15px 0 0;
 }
 
 .modal {
