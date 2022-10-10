@@ -2,13 +2,31 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
+	text-align: center;
 	font-family: 'Inter';
 	font-style: normal;
 }
+.footer_large {
+	padding: 71px 0 136px;
+	color: var(--black);
+}
 
-.footer__title {
+.footer__wrapper {
+	margin: 0 auto;
+	max-width: 640px;
+}
 
+.footer__title_large {
+	font-weight: 500;
+	font-size: 38px;
+	line-height: 48px;
+	margin-bottom: 32px;
+}
+
+.footer__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .footer__title_size_small {

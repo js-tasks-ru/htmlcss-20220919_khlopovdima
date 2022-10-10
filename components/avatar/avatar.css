@@ -9,3 +9,9 @@
 	border-radius: 50%;
 	object-fit: cover;
 }
+
+.card_avatar {
+	margin-top: 26px;
+	width: 162px;
+	height: 162px;
+}

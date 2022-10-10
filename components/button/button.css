@@ -58,3 +58,16 @@
 .button-modal {
 	background: var(--blue-3);
 }
+.preview__button {
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+}
+.button_load {
+	padding: 15px 52px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 1px solid var(--grey-3);
+	border-radius: 8px;
+	color: var(--grey-4)
+}
