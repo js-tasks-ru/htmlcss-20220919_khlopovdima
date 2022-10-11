@@ -46,9 +46,15 @@
 	margin: auto;
 }
 
-.tooltip__helper_page{
+.page_tooltip .tooltip__helper{
 	display: block;
 }
 
+@media (max-width: 610px) {
+	.tooltip__helper {
+		padding: 4px 10px;
+		font-size: 13px;
+	}
+}
 
 

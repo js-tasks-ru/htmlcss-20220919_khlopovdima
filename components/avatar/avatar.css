@@ -10,8 +10,16 @@
 	object-fit: cover;
 }
 
-.card_avatar {
+.avatar_page {
 	margin-top: 26px;
-	width: 162px;
-	height: 162px;
+	width: 160px;
+	height: 160px;
+}
+
+@media (max-width: 610px) {
+	.avatar_page {
+		width: 116px;
+		height: 116px;
+		margin-top: 0;
+	}
 }

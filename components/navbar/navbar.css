@@ -33,3 +33,10 @@
 	height: 20px;
 	background-color: blue;
 }
+
+
+@media (max-width: 610px) {
+	.navbar__wrapper {
+		display: none;
+	}
+}

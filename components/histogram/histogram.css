@@ -51,8 +51,57 @@
 	background: #4263EB;
 }
 
-.card_histogram {
-	min-width: 300px;
+.histogram_page {
 	margin-top: 29px;
 	padding: 12px 16px;
+}
+
+@media (max-width: 735px) {
+	.histogram_page {
+		margin: 0 auto;
+		min-width: 200px;
+	}
+
+	.histogram_page .histogram__title {
+		font-size: 12px;
+	}
+
+	.histogram_page .histogram__subtitle {
+		font-size: 12px;
+	}
+
+	.histogram_page .histogram__link {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 610px) {
+	.histogram_page {
+		min-width: 140px;
+	}
+
+	.histogram_page .histogram__title{
+		margin: 0;
+		font-size: 8px;
+		line-height: 16px;
+	}
+	.histogram_page .histogram__subtitle {
+		margin-top: 0;
+		font-size: 6px;
+		line-height: 12px;
+	}
+	.histogram_page .histogram__link {
+		padding-top: 3px;
+		font-size: 6px;
+		line-height: 16px;
+	}
+	.histogram_page .histogram__bottom {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 410px) {
+	.histogram_page {
+		min-width: 114px;
+	}
 }

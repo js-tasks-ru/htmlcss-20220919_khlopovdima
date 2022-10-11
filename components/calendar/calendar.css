@@ -68,17 +68,49 @@
 	padding: 20px 15px;
 }
 
-.calendar__title_page {
+.calendar_page .calendar__title {
 	font-size: 14px;
 	line-height: 18px;
 }
 
 
-.calendar__item_page {
+.calendar_page .calendar__item {
 	font-size: 8px;
 	line-height: 20px;
 }
 
-.calendar__item_day_page {
+.calendar_page .calendar__item_day {
 	margin: 16px 0px 0px;
+}
+
+@media (max-width: 735px) {
+	.calendar_page {
+		max-width: 140px;
+	}
+	.calendar_page .calendar__title {
+		line-height: 6px;
+	}
+	.calendar_page .calendar__item_day {
+		margin-top: 8px;
+	}
+}
+
+
+@media (max-width: 410px) {
+	.calendar_page {
+		padding: 10px 10px;
+		max-width: 120px;
+	}
+
+	.calendar_page .calendar__item {
+		line-height: 14px;
+	}
+	.calendar_page .calendar__item_day {
+		font-size: 7px;
+		margin-top: 4px;
+	}
+	.calendar_page .calendar__title {
+		font-size: 8px;
+		line-height: 4px;
+	}
 }

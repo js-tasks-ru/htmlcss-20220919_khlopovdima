@@ -41,3 +41,46 @@
 	font-size: 16px;
 	line-height: 19px;
 }
+
+.card__wrapper_histogram {
+	align-items: stretch;
+}
+
+@media (max-width: 735px) {
+	.card {
+		width: 270px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 610px) {
+	.card {
+		width: 190px;
+		height: 300px;
+	}
+	
+	.card__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.card__text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+@media (max-width: 410px) {
+	.card {
+		width: 164px;
+		height: 231px;
+	}
+
+	.card__title {
+		font-size: 14px;
+	}
+
+	.card__text {
+		font-size: 12px;
+	}
+}
