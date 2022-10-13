@@ -36,7 +36,6 @@
 
 @import '/components/histogram/histogram.css';
 
-@import '/components/media/media.css';
 
 :root {
     --white:   #ffffff;

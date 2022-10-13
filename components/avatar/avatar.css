@@ -1,6 +1,6 @@
 .avatar {
-	width: 102px;
-	height: 102px;
+	width: 162px;
+	height: 162px;
 }
 
 .avatar__img {
@@ -10,16 +10,10 @@
 	object-fit: cover;
 }
 
-.avatar_page {
-	margin-top: 26px;
-	width: 160px;
-	height: 160px;
-}
 
 @media (max-width: 610px) {
-	.avatar_page {
+	.avatar {
 		width: 116px;
 		height: 116px;
-		margin-top: 0;
 	}
 }
