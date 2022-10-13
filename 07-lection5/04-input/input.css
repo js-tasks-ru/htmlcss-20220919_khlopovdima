@@ -1,14 +1,10 @@
-::placeholder {
+.formgroup__input::placeholder {
 	color: #DDE2E5;
 }
-:focus::placeholder {
+.formgroup__input:focus::placeholder {
 	color: #495057;
 }
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	gap:30px;
-}
+
 
 .formgroup {
 	display: flex;
@@ -27,6 +23,8 @@
 }
 
 .formgroup__wrapper {
+	width: 350px;
+	height: 56px;
 	position: relative;
 }
 
@@ -35,12 +33,11 @@
 	height: 24px;
 	position: absolute;
 	top: 16px;
-	left: 315px;
+	right: 16px;
 }
 
 .formgroup__input{
 	width: 350px;
-	height: 56px;
 	padding: 17px 24px 13px;
 	box-sizing: border-box;
 	background: #FFFFFF;
