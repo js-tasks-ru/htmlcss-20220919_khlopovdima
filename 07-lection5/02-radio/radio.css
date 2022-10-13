@@ -1,24 +1,7 @@
-
-.radio__wrapper {
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
-}
-
-h3 {
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 12px;
-   line-height: 18px;
-   letter-spacing: 0.04em;
-   text-transform: uppercase;
-   color: #ACB5BD;
-}
-
 .radio {
-   display: inline-block;
+   display: block;
    position: relative;
+   padding-bottom: 20px;
 }
 
 .radio__input {
