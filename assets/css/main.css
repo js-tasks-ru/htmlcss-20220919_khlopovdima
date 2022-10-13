@@ -28,6 +28,15 @@
 
 @import '/components/avatar/avatar.css';
 
+@import '/components/navigation/navigation.css';
+
+@import '/components/tooltip/tooltip.css';
+
+@import '/components/calendar/calendar.css';
+
+@import '/components/histogram/histogram.css';
+
+
 :root {
     --white:   #ffffff;
     --black:   #212429;

@@ -1,6 +1,8 @@
 .preview {
-	padding: 60px 0;
+	padding: 60px 0 92px;
 	background: var(--gray-5);
+	border-top: 1px solid var(--grey-2);
+	border-bottom: 1px solid var(--grey-2);
 }
 
 .preview__cards {
@@ -10,5 +12,9 @@
 	gap: 30px;
 }
 
-
+.preview__button {
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+}
 

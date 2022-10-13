@@ -17,7 +17,7 @@
 }
 
 .button_primary {
-	background: var(--violet);
+	background: var(--blue-2);
 }
 
 .button_primary:hover {
@@ -58,3 +58,4 @@
 .button-modal {
 	background: var(--blue-3);
 }
+
