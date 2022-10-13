@@ -1,0 +1,94 @@
+.toggle__wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+h3 {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: #ACB5BD;
+}
+
+.toggle {
+   display: inline-block;
+   position: relative;
+}
+
+.toggle__input {
+   position: absolute;
+   outline: none;
+   clip: rect(0,0,0,0);
+}
+
+.toggle__state {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   cursor: pointer;
+}
+
+.toggle__control {
+   display: flex;
+   box-sizing: border-box;
+   width: 52px;
+   height: 28px;
+   background: #FFFFFF;
+   border: 1px solid #DDE2E5;
+   border-radius: 16px;
+}
+
+.toggle__icon {
+   content: "";
+	display: inline-block;
+	position: absolute;
+	left: 3px;
+	top: calc(50%  - 24px/2);
+   width: 24px;
+   height: 24px;
+   background-color: #DDE2E5;
+	border-radius: 16px;
+	transform: translate(0);
+}
+
+.toggle__title {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #495057;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+   background: #4263EB;
+   border-color: #4263EB;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__icon {
+   background-color: #ffffff;
+	left: 26px;
+}
+
+.toggle__input:focus ~ .toggle__state .toggle__title {
+   text-decoration: underline;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+   background: #DDE2E5;
+   cursor: default;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__icon{
+   background: #ACB5BD;
+	opacity: 0.25;
+}
+.toggle__input:disabled ~ .toggle__state {
+   cursor: default;
+}
+
