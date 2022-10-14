@@ -36,6 +36,16 @@
 
 @import '/components/histogram/histogram.css';
 
+@import '/components/toggler/toggler.css';
+
+@import '/components/checkbox/checkbox.css';
+
+@import '/components/radio/radio.css';
+
+@import '/components/element/element.css';
+
+@import '/components/input/input.css';
+
 
 :root {
     --white:   #ffffff;

@@ -1,0 +1,15 @@
+.elements {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding-top: 30px;
+	pointer-events: none;
+}
+
+.element {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
