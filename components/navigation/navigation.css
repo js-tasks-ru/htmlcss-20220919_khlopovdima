@@ -22,9 +22,12 @@
 	cursor: pointer;
 	color: var(--grey-3);
 	padding-bottom: 8px;
-}
+} 
 
-.tabs__menu > .tabs__element::after {
+#all-tab:checked ~ .tabs__menu .tabs__element[for="all-tab"]::after,
+#elements-tab:checked ~ .tabs__menu .tabs__element[for="elements-tab"]::after,
+#containers-tab:checked ~ .tabs__menu .tabs__element[for="containers-tab"]::after,
+#templates-tab:checked ~ .tabs__menu .tabs__element[for="templates-tab"]::after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -35,19 +38,8 @@
 	background: var(--black);
 }
 
-.tabs__menu .tabs__element[for="#all-tab"]::after {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 5px;
-	width: 100%;
-	top: 100%;
-	color: var(--black);
-	background: var(--black);
+.tabs__menu > li label::after {
+	display: none;
 }
-
-
-
-
 
 
