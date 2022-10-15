@@ -1,4 +1,4 @@
-.tabs {
+/* .tabs {
 	display: flex;
 	font-weight: 400;
 	font-size: 16px;
@@ -25,10 +25,57 @@
 	line-height: 24px;
 	color: var(--grey-3);
 	cursor: pointer;
+	
 }
 
-.tab__radio:checked ~ .tabs__scroller .tabs__element{
+.tabs__element:hover {
+	color: var(--black);
+	border-bottom: 5px solid var(--black);
+	padding-bottom: 8px;
+} */
+
+.tabs__items {
+	display: flex;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	gap: 40px;
+	
+}
+.tabs__item {
+	display: flex;
+	color: var(--grey-3);
+	padding-bottom: 13px;
+	text-decoration: none;
+}
+
+
+.tabs__item:hover{
+	padding-bottom: 8px;
 	color: var(--black);
 	border-bottom: 5px solid var(--black);
 }
 
+.preview__cards,
+.tabs__content {
+	display: none;
+}
+.tabs__content:target {
+	display: block;
+}
+.preview__cards:target {
+	display: flex;
+}
+
+.tabs__item:target ~ .preview__cards {
+	display: none;
+}
+
+
+/* .tabs__element:checked ~ .preview__cards {
+	display: block;
+} */
+
+/* .tabs__item:checked ~ .tabs__content {
+	display: block;
+} */

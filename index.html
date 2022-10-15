@@ -51,7 +51,7 @@
 					</div>
                     <h1 class="header__title header__title-page">Reusable component library</h1>
                     <div class="tabs">
-                        <input class="tab__radio" type="radio" id="#all-tab" checked>
+                        <!-- <input class="tab__radio" type="radio" id="#all-tab" checked>
                         <input class="tab__radio" type="radio" id="#elements-tab">
                         <input class="tab__radio" type="radio" id="#containers-tab">
                         <input class="tab__radio" type="radio" id="#templates-tab">
@@ -60,21 +60,21 @@
                             <label for="#all-tab" class="tabs__element">All components</label>
                             <label for="#elements-tab" class="tabs__element">Elements</label>
                             <label for="#containers-tab" class="tabs__element">Containers</label>
-                            <label for="#templates-tab" class="tabs__element">Templates</label>
+                            <label for="#templates-tab" class="tabs__element">Templates</label> -->
                         </div>
-
-                        <div class="tabs__content tabs__content_complex">
-
-                        </div>
-                        <div class="tabs__content tabs__content_simple">
-                            
-                        </div>
+                        <nav class="tabs__items">
+                            <a href="#all-tab" class="tabs__item">All components</a>
+                            <a href="#elements-tab" class="tabs__item">Elements</a>
+                            <a href="#containers-tab" class="tabs__item">Containers</a>
+                            <a href="" class="tabs__item">Templates</a>
+                        </nav>
+                        
                     </div>
                 </div>
             </header>
             <main class="preview">
                 <div class="container">
-                    <div class="preview__cards preview__cards_media">
+                    <div id="all-tab" class="preview__cards preview__cards_media">
                         <div class="card">
                             <a class="card__wrapper" href="#">
                                 <div class="tooltip page_tooltip">
@@ -312,6 +312,12 @@
                             </a>
                             
                         </div>
+                    </div>
+                    <div id="elements-tab" class="tabs__content tabs__content_complex">
+                        Элементы1
+                    </div>
+                    <div id="containers-tab" class="tabs__content tabs__content_simple">
+                        Элементы2
                     </div>
                     <div class="preview__button">
                         <button class="button button_primary">Load more</button>
