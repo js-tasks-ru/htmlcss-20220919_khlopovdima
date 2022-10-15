@@ -6,6 +6,8 @@
 }
 
 .tabs__menu {
+	max-width: 1110px;
+	margin: 0 auto;
 	height: 40px;
 	width: 100%;
 	display: flex;
@@ -41,5 +43,17 @@
 .tabs__menu > li label::after {
 	display: none;
 }
+.preview__cards,
+.tabs__content  {
+	display: none;
+}
 
+#all-tab:checked ~ .preview > .container .preview__cards {
+	display: flex;
+}
 
+#elements-tab:checked ~ .preview > .container .tabs__content_complex,
+#containers-tab:checked ~ .preview > .container .tabs__content_simple,
+#templates-tab:checked ~ .preview > .container .tabs__content_templates {
+	display: flex;
+}
