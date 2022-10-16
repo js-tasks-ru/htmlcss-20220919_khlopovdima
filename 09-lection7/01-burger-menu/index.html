@@ -7,6 +7,70 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
+        <div class="header__mobile">
+            <div class="header__inner">
+                <div class="burger__open">
+                    <button class="burger-menu-open" id="burger-menu-open">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                    
+
+                <div class="burger-menu" id="burger-menu">
+                    <div class="container__mobile">
+                        <div class="header__menu_mobile">
+                            <div class="burger__btn">
+                                <button class="burger-menu-close" id="burger-menu-close">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18 6L6 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M6 6L18 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                    
+                                </button>
+                            </div>
+                            <div class="header__logo">
+                                <a href="logo logo_mobile">
+                                    <img class="header_logo" src="/pages/img/Frame 6.svg" alt="logo">
+                                </a>
+                            </div>
+                        </div>  
+                    </div>    
+                    <div class="dark__mode">
+                        <div class="container__mobile">
+                            <div class="toggle__mode">
+                                <div class="toggle__title">Dark mode</div>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <div class="toggle__state">
+                                        <div class="toggle__control">
+                                            <div class="toggle__icon"></div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="menu menu_mobile">
+                        <div class="container__mobile">
+                            <h4 class="menu__title">Components</h4>
+                            <a href="#" class="menu__item">Modal</a>
+                            <a href="#" class="menu__item">Tooltip</a>
+                            <a href="#" class="menu__item">Avatar</a>
+                            <a href="#" class="menu__item">Calendar</a>
+                            <a href="#" class="menu__item">Histogram</a>
+                            <a href="#" class="menu__item">Custom form elements</a>
+                            <a href="#" class="menu__item">Main page</a>
+                        </div>
+                    </div>   
+                                
+                </div>
+
+            </div>
+                
+        </div>
 
     </body>
 </html>

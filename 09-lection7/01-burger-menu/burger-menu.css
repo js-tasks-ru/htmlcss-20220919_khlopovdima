@@ -1,0 +1,119 @@
+.burger-menu {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 610px;
+   height: 100vh;
+   background: var(--grey-5);
+   transform: translateX(-100vw);
+   transition: transform 200ms linear;
+	z-index: 3;
+}
+
+.burger-menu[data-open] {
+	z-index: 2;
+   transform: translateX(0);
+}
+
+.burger-menu-close {
+   border: none;
+   border-radius: 50%;
+}
+
+.burger__open {
+	padding: 20px;
+}
+.burger-menu-open {
+   border: none;
+}
+
+.container__mobile {
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.header__menu_mobile {
+	align-items: center;
+	display: flex;
+	padding: 20px 0;
+	border-bottom: 1px solid var(--grey-2);
+}
+
+.header__logo {
+	margin: 0 auto;
+}
+
+
+.toggle__mode {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px 0;
+}
+
+.dark__mode {
+	border-bottom: 1px solid var(--grey-2);
+}
+.dark__mode .toggle {
+   display: inline-block;
+   position: relative;
+}
+
+.dark__mode .toggle__input {
+   position: absolute;
+   outline: none;
+   clip: rect(0,0,0,0);
+}
+
+.dark__mode .toggle__state {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   cursor: pointer;
+}
+
+.dark__mode .toggle__control {
+   position: relative;
+   display: flex;
+   box-sizing: border-box;
+   width: 52px;
+   height: 28px;
+   background: var(--white);
+   border: 1px solid var(--grey-2);
+   border-radius: 16px;
+}
+
+.dark__mode .toggle__icon {
+	display: inline-block;
+	position: absolute;
+	left: 2px;
+	top: calc(50%  - 24px/2);
+   width: 24px;
+   height: 24px;
+   background-color: var(--grey-2);
+	border-radius: 16px;
+	transform: translate(0);
+}
+
+.dark__mode .toggle__title {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #495057;
+}
+
+.menu_mobile .menu__title {
+	color: var(--grey-3);
+}
+
+.menu_mobile .menu__item {
+	padding-bottom: 16px;
+}
+.toggle__input:checked ~ .toggle__state .toggle__control {
+   background-color: var(--blue);
+}
+.toggle__input:checked ~ .toggle__state .toggle__icon {
+   background-color: var(--white);
+	left: 26px;
+}
