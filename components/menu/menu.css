@@ -28,3 +28,7 @@
 .menu__item:hover {
 	color: var(--red-2);
 }
+
+.menu__item_bottom {
+	padding-top: 72px;
+}

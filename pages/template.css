@@ -2,3 +2,64 @@ body,
 html {
 	height: 100%;
 } 
+
+
+
+@media (max-width: 610px) {
+	.header_logo {
+		margin: 0 auto;
+	}
+}
+
+.component-section__top {
+	height: 350px;
+}
+.tabs__radio {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	outline: none;
+}
+
+.tabs__menu {
+	width: 100%;
+	display: flex;
+	gap: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	padding-bottom: 13px;
+	border-bottom: 1px solid var(--grey-2);
+}
+.tabs__item {
+	position: relative;
+	cursor: pointer;
+	padding-bottom: 8px;
+}
+
+#tab1:checked ~ .tabs__menu .tabs__item[for="tab1"]::after,
+#tab2:checked ~ .tabs__menu .tabs__item[for="tab2"]::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 5px;
+	width: 100%;
+	top: 100%;
+	color: var(--black);
+	background: var(--black);
+}
+.tabs__menu > li label::after {
+	display: none;
+}
+
+.tabs__tab-content,
+.tabs__tab_content-1 {
+	margin-top: 50px;
+	display: none;
+}
+
+#tab1:checked ~ .tabs__tab_content-1,
+#tab2:checked ~ .tabs__tab_content-2 {
+	display: flex;
+}
