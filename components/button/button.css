@@ -13,19 +13,19 @@
 	border: none;
 	cursor: pointer;
 	transition: .3s;
-	color: var(--white);
+	color: var(--white-bg);
 }
 
 .button_primary {
-	background: var(--blue-2);
+	background: var(--primary-2);
 }
 
 .button_primary:hover {
-	background: var(--blue);
+	background: var(--primary);
 }
 
 .button_primary:active {
-	background: var(--blue);
+	background: var(--primary);
 }
 
 .button_secondary {

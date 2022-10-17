@@ -1,6 +1,6 @@
 .component-section {
 	padding: 32px 48px;
-	background: var(--white);
+	background: var(--main-bg);
 	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 	border-radius: 12px;
 }
@@ -11,7 +11,7 @@
 	font-weight: 400;
 	font-size: 28px;
 	line-height: 38px;
-	color: var(--grey-4);
+	color: var(--page-text);
 	padding-bottom: 24px;
 }
 

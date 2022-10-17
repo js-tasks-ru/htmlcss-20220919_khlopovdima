@@ -20,7 +20,7 @@
 
 @import '/components/component-sectioin/component-section.css';
 
-@import '/components/pages/pages.css';
+@import '/components/page/page.css';
 
 @import '/components/button/button.css';
 
@@ -28,7 +28,7 @@
 
 @import '/components/avatar/avatar.css';
 
-@import '/components/navigation/navigation.css';
+@import '/components/tabs/tabs.css';
 
 @import '/components/tooltip/tooltip.css';
 
@@ -65,12 +65,33 @@
     --grey-6:  #E5E5E5;
     --grey-7:  #ACB5BD;
     --grey-8:  #334D6E;
+    --grey-9:  #90A0B7;
     
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-2: var(--blue-2);
     --secondary: var(--purple);
+
+    --page-text: var(--grey-4);
+    --page-title-small: var(--grey-7);
+    --text-primary: var(--black);
+    --text-secondary: var(--grey-3);
+    --text-element: var(--grey-2);
+    --active-text-color: var(--text-primary);
+    --main-bg: var(--light-bg);
+    --grey-bg: var(--grey-5);
+    --white-bg: var(--white);
+    --light-bg: var(--white);
+    --dark-bg: var(--black);
+    --border-preview: var(--grey-2);
+    --card-bg: var(--white);
+    --font-color: var(--text-primary);
+    --modal-text-color: var(--grey-4);
+    --text-color: var(--grey-8);
+    --border-color: var(--grey-7);
+    --color-element: var(--grey-4);
 }
 
 

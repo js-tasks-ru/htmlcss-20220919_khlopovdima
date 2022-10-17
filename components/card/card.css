@@ -7,7 +7,7 @@
 	padding: 32px 25px;
 	width: 350px;
 	height: 367px;
-	background: var(--white);
+	background: var(--card-bg);
 	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 	border-radius: 12px;
 }
@@ -25,7 +25,7 @@
 .card__info {
 	font-family: 'Roboto';
 	font-style: normal;
-	color: var(--black);
+	color: var(--font-color);
 	text-align: center;
 }
 

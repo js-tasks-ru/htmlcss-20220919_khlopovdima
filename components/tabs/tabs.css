@@ -21,9 +21,16 @@
 .tabs__element {
 	position: relative;
 	cursor: pointer;
-	color: var(--grey-3);
+	color: var(--text-secondary);
 	padding-bottom: 8px;
 } 
+
+#all-tab:checked ~ .tabs__menu .tabs__element[for="all-tab"],
+#elements-tab:checked ~ .tabs__menu .tabs__element[for="elements-tab"],
+#containers-tab:checked ~ .tabs__menu .tabs__element[for="containers-tab"],
+#templates-tab:checked ~ .tabs__menu .tabs__element[for="templates-tab"] {
+	color: var(--active-text-color);
+}
 
 #all-tab:checked ~ .tabs__menu .tabs__element[for="all-tab"]::after,
 #elements-tab:checked ~ .tabs__menu .tabs__element[for="elements-tab"]::after,
@@ -35,11 +42,11 @@
 	height: 5px;
 	width: 100%;
 	top: 100%;
-	color: var(--black);
-	background: var(--black);
+	color: var(--active-text-color);
+	background-color: var(--active-text-color);
 }
 
-.tabs__menu > li label::after {
+.tabs__menu > .tabs__element::after {
 	display: none;
 }
 .preview__cards,
