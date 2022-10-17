@@ -19,11 +19,11 @@
 .navbar__link {
 	list-style: none;
 	text-decoration: none;
-	color: var(--grey-7);
+	color: var(--navbar-color);
 }
 
 .navbar__link:hover {
-	color: var(--black);
+	color: var(--font-color);
 }
 
 .navbar__toggle {
@@ -73,18 +73,18 @@
 	top: calc(50%  - 24px/2);
    width: 24px;
    height: 24px;
-   background-color: var(--grey-2);
+   background-color: var(--toggle-icon);
 	border-radius: 16px;
 	transform: translate(0);
 }
 
 .navbar__toggle .toggle__input:checked ~ .toggle__state .toggle__control {
-   background: var(--blue-2);
-   border-color: var(--blue-2);
+   background: var(--primary-2);
+   border-color: var(--primary-2);
 }
 
 .navbar__toggle .toggle__input:checked ~ .toggle__state .toggle__icon {
-   background-color: var(--white);
+   background-color: var(--light-bg);
 	left: 26px;
 }
 

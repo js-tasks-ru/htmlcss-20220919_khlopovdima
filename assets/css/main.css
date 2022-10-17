@@ -91,7 +91,9 @@
     --modal-text-color: var(--grey-4);
     --text-color: var(--grey-8);
     --border-color: var(--grey-7);
+    --navbar-color: var(--grey-7);
     --color-element: var(--grey-4);
+    --toggle-icon: var(--grey-2);
 }
 
 
