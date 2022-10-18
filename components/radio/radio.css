@@ -71,17 +71,17 @@
    color: var(--grey-2);
 }
 
-.element_radio .radio__state {
+.elements_radio .radio__state {
 	cursor: disabled;
 }
 
 @media (max-width: 735px) {
-	.element_radio .radio__control {
+	.elements__radio .radio__control {
 		width: 20px;
 		height: 20px;
 	}
 
-	.radio__input:checked ~ .radio__state .radio__icon {
+	.elements__radio .radio__input:checked ~ .radio__state .radio__icon {
 		display: block;
 		border-radius: 14px;
 		width: 10px;
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 610px) {
-	.radio__title {
+	.elements__radio .radio__title {
 		display: none;
 	}
 }

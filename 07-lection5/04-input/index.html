@@ -6,6 +6,31 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <div class="formgroup">
+            <label class="formgroup__label" for="placeholder">Label</label>
+            <input class="formgroup__input" type="text" id="placeholder" placeholder="Placeholder">
+        </div>
+        <div class="formgroup">
+            <label class="formgroup__label">Focus</label>
+            <input class="formgroup__input" type="text" placeholder="Filled Input">
+        </div>
+        <div class="formgroup formgroup_success">
+            <label class="formgroup__label">Success</label>
+            <div class="formgroup__wrapper">
+                <input class="formgroup__input formgroup__input_succsess" type="text" placeholder="Success">
+                <svg class="formgroup__icon formgroup__icon_succsess">
+                    <use href="/assets/images/icons-sprite.svg#success"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="formgroup formgroup_error">
+            <label class="formgroup__label">Error</label>
+            <div class="formgroup__wrapper">
+                <input class="formgroup__input formgroup__input_error" type="text" placeholder="Error">
+                <svg class="formgroup__icon formgroup__icon_error">
+                    <use href="/assets/images/icons-sprite.svg#error"></use>
+                </svg>
+            </div>
+        </div>
     </body>
 </html>

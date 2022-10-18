@@ -28,7 +28,7 @@
 
 .navbar__toggle {
 	display: inline-block;
-	margin-left: 56px;
+	margin-left: 92px;
 }
 
 .navbar__toggle .toggle__image {
@@ -37,7 +37,7 @@
 	height: 24px;
 }
 
-.navbar__toggle .toggle {
+.navbar__toggle {
    display: inline-block;
    position: relative;
 }
@@ -87,6 +87,21 @@
    background-color: var(--light-bg);
 	left: 26px;
 }
+
+.navbar__toggle .toggle__image {
+	position: absolute;
+}
+
+.navbar__toggle .toggle__image_sun {
+	top: 2px;
+	right: 60px;
+}
+
+.navbar__toggle .toggle__image_moon {
+	top: 2px;
+   left: 60px;
+}
+
 
 @media (max-width: 610px) {
 	.navbar__wrapper {

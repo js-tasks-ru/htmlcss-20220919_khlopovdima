@@ -46,6 +46,8 @@
 
 @import '/components/input/input.css';
 
+@import '/components/burger-menu/burger-menu.css';
+
 
 :root {
     --white:   #ffffff;

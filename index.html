@@ -8,16 +8,19 @@
         <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
         <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
         <link rel="stylesheet" href="./assets/css/main.css">
+        <script defer src="/09-lection7/01-burger-menu/burger-menu.js"></script>
     </head>
     <body>
         <div class="page">
             <header class="header header_large">
                 <div class="container">
-                    <div class="navbar header_navbar">
-                        <button class="header__btn">
-                            <div class="header__burger"></div>
-                            <div class="header__burger"></div>
-                            <div class="header__burger"></div>
+                    <div class="navbar header__navbar">
+                        <button class="header__menu-open" id="burger-menu-open">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </button>
                         <div class="header__logo">
                             <a href="logo">
@@ -30,27 +33,57 @@
 								<li><a class="navbar__link" href="#">About</a></li>
 								<li><a class="navbar__link" href="#">Contact</a></li>
 							</ul>
-							<div class="navbar__toggle">
-                                <svg class="toggle__image">
-                                    <use href="/assets/images/icons-sprite.svg#sun"></use>
-                                </svg>
-                                <label class="toggle">
+							
+                                
+                                <label class="toggle navbar__toggle">
                                     <input type="checkbox" class="toggle__input">
                                     <div class="toggle__state">
                                         <div class="toggle__control">
                                             <div class="toggle__icon"></div>
                                         </div>
                                     </div>
+                                    <svg class="toggle__image toggle__image_sun">
+                                        <use href="/assets/images/icons-sprite.svg#sun"></use>
+                                    </svg>
+                                    <svg class="toggle__image toggle__image_moon">
+                                        <use href="/assets/images/icons-sprite.svg#moon"></use>
+                                    </svg>
                                 </label>
-                                <svg class="toggle__image">
-                                    <use href="/assets/images/icons-sprite.svg#moon"></use>
-                                </svg>
-							</div>
+                                
+							
 						</div>
-					</div>
-                    <h1 class="header__title header__title-page">Reusable component library</h1>
-                </div>
+                    </div>
+                <h1 class="header__title header__title-page">Reusable component library</h1>
             </header>
+
+            <div class="burger-menu" id="burger-menu">
+                <div class="burger-menu__header">
+                    <div class="burger-menu__btn">
+                        <button class="burger-menu__close" id="burger-menu-close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 6L6 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 6L18 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                    
+                        </button>
+                    </div>
+                    <div class="burger-menu__logo">
+                        <a href="logo">
+                            <img src="/pages/img/Frame 6.svg" alt="logo">
+                        </a>
+                    </div>
+                </div> 
+                <div class="menu burger-menu__navigation">
+                    <h4 class="menu__title">Components</h4>
+                    <a href="#" class="menu__item">Modal</a>
+                    <a href="#" class="menu__item">Tooltip</a>
+                    <a href="#" class="menu__item">Avatar</a>
+                    <a href="#" class="menu__item">Calendar</a>
+                    <a href="#" class="menu__item">Histogram</a>
+                    <a href="#" class="menu__item">Custom form elements</a>
+                    <a href="#" class="menu__item">Main page</a>
+                </div>   
+            </div>
+
             <input class="tab__radio" type="radio" id="all-tab" name="radio" checked>
             <input class="tab__radio" type="radio" id="elements-tab" name="radio">
             <input class="tab__radio" type="radio" id="containers-tab" name="radio">
@@ -95,7 +128,7 @@
                                 <a class="card__wrapper" href="#" >
                                     <div class="elements">
                                         <div class="element elements__element">
-                                            <label class="checkbox">
+                                            <label class="elements__checkbox">
                                                 <input type="checkbox" class="checkbox__input">
                                                 <div class="checkbox__state">
                                                     <div class="checkbox__control">
@@ -106,7 +139,7 @@
                                                     <div class="checkbox__title">Default</div>
                                                 </div>
                                             </label>
-                                            <label class="checkbox">
+                                            <label class="elements__checkbox">
                                                 <input type="checkbox" class="checkbox__input" checked>
                                                 <div class="checkbox__state">
                                                     <div class="checkbox__control">
@@ -117,7 +150,7 @@
                                                     <div class="checkbox__title">Checked</div>
                                                 </div>
                                             </label>
-                                            <label class="checkbox">
+                                            <label class="elements__checkbox">
                                                 <input type="checkbox" class="checkbox__input" disabled>
                                                 <div class="checkbox__state">
                                                     <div class="checkbox__control">
@@ -129,8 +162,8 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="element element_radio">
-                                            <label class="radio">
+                                        <div class="element elements__element">
+                                            <label class="elements__radio">
                                                 <input type="radio" class="radio__input">
                                                 <div class="radio__state">
                                                     <div class="radio__control">
@@ -139,7 +172,7 @@
                                                     <div class="radio__title">Default</div>
                                                 </div>
                                             </label>
-                                            <label class="radio">
+                                            <label class="elements__radio">
                                                 <input type="radio" class="radio__input" checked>
                                                 <div class="radio__state">
                                                     <div class="radio__control">
@@ -148,7 +181,7 @@
                                                     <div class="radio__title">Checked</div>
                                                 </div>
                                             </label>
-                                            <label class="radio">
+                                            <label class="elements__radio">
                                                 <input type="radio" class="radio__input" disabled>
                                                 <div class="radio__state">
                                                     <div class="radio__control">
