@@ -58,12 +58,6 @@
 	left: 26px;
 }
 
-.navbar__toggle {
-	display: inline-block;
-	align-items: center;
-	margin-left: 57px;
-}
-
 .toggle__image {
 	width: 24px;
 	height: 24px;
