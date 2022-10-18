@@ -1,0 +1,31 @@
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.toggle__state {
+	margin-left: 30px;
+}
+
+.toggle__control {
+	position: relative;
+}
+.toggle__image {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+}
+
+.toggle__image_sun {
+	top: 2px;
+}
+
+.toggle__image_moon {
+	top: 2px;
+	left: 90px;
+}
+
+.toggle__input:checked ~ .toggle__image {
+	fill: aliceblue;
+}
+
