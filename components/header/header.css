@@ -46,6 +46,7 @@
 	.header__menu-open {
 		display: block;
 		border: none;
+		position: absolute;
 		background: transparent;
 		margin-left: 14px;
 	}
