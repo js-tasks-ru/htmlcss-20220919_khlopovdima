@@ -20,18 +20,12 @@
    border-radius: 50%;
 }
 
-.menu-open {
-	padding: 20px;
-}
-.menu-open__btn {
-   border: none;
-}
 
-.burger__navigation {
+.burger-menu__navigation {
    display: flex;
 	flex-direction: column;
 	padding: 20px 0;
-	
+	gap: 16px;
 }
 
 .burger-menu__header {
@@ -40,15 +34,12 @@
    border-bottom: 1px solid var(--grey-2);
 }
 
-.burger__logo {
+.burger-menu__logo {
 	margin: 0 auto;
 }
 
-.burger__navigation {
+.burger-menu__navigation {
    padding: 24px 20px;
 }
 
-.burger__navigation .menu__item {
-	padding-bottom: 16px;
-}
 
