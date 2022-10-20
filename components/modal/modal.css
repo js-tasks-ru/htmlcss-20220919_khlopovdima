@@ -76,10 +76,6 @@
 	pointer-events: none;
 }
 
-.modal_page .input__block {
-	padding: 5px;
-}
-
 @media (max-width: 735px) {
 	.modal_page .modal__body {
 		width: 80%;
