@@ -86,6 +86,7 @@
     --text-primary: var(--black);
     --active-text-color: var(--text-primary);
     --page-bg: var(--grey-5);
+    --trigger-color: var(--black);
 }
 
 
@@ -103,4 +104,5 @@ html[data-theme-dark] {
     --active-text-color: var(--white);
     --page-title-text: var(--grey-4);
     --page-bg: var(--grey-4);
+    --trigger-color: var(--primary);
 }

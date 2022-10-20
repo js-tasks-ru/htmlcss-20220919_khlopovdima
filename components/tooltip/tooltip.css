@@ -46,6 +46,10 @@
 	margin: auto;
 }
 
+.page_tooltip .tooltip__trigger {
+	fill: var(--trigger-color);
+}
+
 .page_tooltip .tooltip__helper{
 	display: block;
 }
