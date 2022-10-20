@@ -16,6 +16,7 @@
 	line-height: 24px;
 	font-family: 'Inter';
 	font-style: normal;
+	background: var(--main-bg);
 }
 
 .tabs__element {
