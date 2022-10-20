@@ -80,21 +80,12 @@
 	padding: 5px;
 }
 
-.modal__body .formgroup__label {
-	font-size: 8px;
-}
-
-
 @media (max-width: 735px) {
 	.modal_page .modal__body {
 		width: 80%;
 		height: 70%;
 	}
 
-	.modal_page .modal__body {
-		max-width: 140px;
-	}
-	
 	.modal_page .modal__top-title {
 		font-size: 8px;
 		line-height: 10px;

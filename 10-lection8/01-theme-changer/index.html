@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Пример использования theme-changer -->
+<html lang="ru">
+    <head>
+        <style>
+            html[data-theme-dark] {
+                background: #000;
+            }
+        </style>
+        <link rel="stylesheet" href="/07-lection5/03-toggler/toggler.css">
+        <link rel="stylesheet" href="/10-lection8/style.css">
+        <script defer src="./theme-changer.js"></script>
+    </head>
+    <body>
+            <label class="toggle">
+                <input type="checkbox" class="toggle__input" id="theme-changer">
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <div class="toggle__icon"></div>
+                    </div>
+                </div>
+                <svg class="toggle__image toggle__image_sun">
+                    <use href="/assets/images/icons-sprite.svg#sun"></use>
+                </svg>
+                <svg class="toggle__image toggle__image_moon">
+                    <use href="/assets/images/icons-sprite.svg#moon"></use>
+                </svg>
+            </label>
+
+    </body>
+</html>
