@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
         <link rel="stylesheet" href="./assets/css/main.css">
         <script defer src="/09-lection7/01-burger-menu/burger-menu.js"></script>
-        <script src="/10-lection8/01-theme-changer/theme-changer.js"></script>
+        <script defer src="/10-lection8/01-theme-changer/theme-changer.js"></script>
     </head>
     <body>
         <div class="page">
@@ -51,9 +51,13 @@
                             </div>   
                         </div>
                         <div class="header__logo">
-                            <a href="logo">
-                                <img class="header__img" src="/pages/img/Frame 6.svg" alt="logo">
-                            </a>
+                            <svg class="header__img" width="110" height="32" viewBox="0 0 110 32" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_16746_155)">
+                                <rect y="1" width="30" height="30" fill=""/>
+                                <rect x="38" width="32" height="32" rx="16" fill=""/>
+                                <path d="M78 0L110 32H78V0Z" fill=""/>
+                                </g>
+                            </svg>
                         </div>
 						<div class="navbar__wrapper">
 							<ul class="navbar__menu">
@@ -81,7 +85,6 @@
                     </div>
                 <h1 class="header__title header__title-page">Reusable component library</h1>
             </header>
-
             <input class="tab__radio" type="radio" id="all-tab" name="radio" checked>
             <input class="tab__radio" type="radio" id="elements-tab" name="radio">
             <input class="tab__radio" type="radio" id="containers-tab" name="radio">
@@ -356,6 +359,7 @@
                         <button class="button button_primary">Load more</button>
                     </div>
                 </div>
+            
             </main>
             <footer class="footer footer_large">
                 <div class="container">

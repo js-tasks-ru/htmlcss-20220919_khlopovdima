@@ -19,7 +19,7 @@
 	align-items: center;
 }
 .header__img {
-	color: var(--font-color);
+	fill: var(--font-color);
 }
 
 .header__menu-open{
@@ -29,7 +29,7 @@
 .header__title {
 	font-weight: 500;
 	font-size: 50px;
-	color: var(--font-color);
+	color: var(--page-text);
 	margin: 0;
 }
 

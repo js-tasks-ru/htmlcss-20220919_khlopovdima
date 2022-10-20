@@ -41,7 +41,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
-	color: var(--modal-text-color);
+	color: var(--font-color);
 }
 
 .checkbox__input:checked ~ .checkbox__state .checkbox__control {
@@ -77,7 +77,7 @@
    font-weight: 400;
    font-size: 16px;
    line-height: 24px;
-   color: var(--color-element);
+   color: var(--font-color);
 }
 
 .elements__checkbox {

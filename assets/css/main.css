@@ -76,20 +76,24 @@
     --primary-2: var(--blue-2);
     --secondary: var(--purple);
 
+
+
+    --main-bg: var(--light-bg);
+    --font-color: var(--black);
+    --dark-bg: var(--black);
+    --light-bg: var(--white);
+    --grey-bg: var(--grey-5);
+    --card-bg: var(--white);
+    --text-primary: var(--black);
+    --active-text-color: var(--text-primary);
+    --page-bg: var(--grey-5);
+
     --page-text: var(--grey-4);
     --page-title-small: var(--grey-7);
-    --text-primary: var(--black);
     --text-secondary: var(--grey-3);
     --text-element: var(--grey-2);
-    --active-text-color: var(--text-primary);
-    --main-bg: var(--light-bg);
-    --grey-bg: var(--grey-5);
     --white-bg: var(--white);
-    --light-bg: var(--white);
-    --dark-bg: var(--black);
     --border-preview: var(--grey-2);
-    --card-bg: var(--white);
-    --font-color: var(--text-primary);
     --modal-text-color: var(--grey-4);
     --text-color: var(--grey-8);
     --border-color: var(--grey-7);
