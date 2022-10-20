@@ -77,7 +77,7 @@
     --secondary: var(--purple);
 
 
-
+    --white-bg: var(--white);
     --main-bg: var(--light-bg);
     --font-color: var(--black);
     --dark-bg: var(--black);
@@ -87,22 +87,22 @@
     --text-primary: var(--black);
     --active-text-color: var(--text-primary);
     --page-bg: var(--grey-5);
-
-    --page-text: var(--grey-4);
-    --page-title-small: var(--grey-7);
-    --text-secondary: var(--grey-3);
-    --text-element: var(--grey-2);
-    --white-bg: var(--white);
-    --border-preview: var(--grey-2);
-    --modal-text-color: var(--grey-4);
-    --text-color: var(--grey-8);
-    --border-color: var(--grey-7);
-    --navbar-color: var(--grey-7);
-    --color-element: var(--grey-4);
-    --toggle-icon: var(--grey-2);
 }
 
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html[data-theme-dark] {
+    --main-bg: var(--black);
+    --font-color: var(--grey-1);
+    --dark-bg: var(--grey-1);
+    --light-bg: var(--grey-4);
+    --grey-bg: var(--grey-4);
+    --card-bg: var(--grey-4);
+    --text-primary: var(--white);
+    --active-text-color: var(--white);
+    --page-title-text: var(--grey-4);
+    --page-bg: var(--black);
 }

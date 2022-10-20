@@ -19,7 +19,7 @@
 .navbar__link {
 	list-style: none;
 	text-decoration: none;
-	color: var(--navbar-color);
+	color: var(--grey-7);
 }
 
 .navbar__link:hover {
@@ -73,7 +73,7 @@
 	top: calc(50%  - 24px/2);
    width: 24px;
    height: 24px;
-   background-color: var(--toggle-icon);
+   background-color: var(--grey-2);
 	border-radius: 16px;
 	transform: translate(0);
 }

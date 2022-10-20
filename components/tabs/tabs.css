@@ -21,7 +21,7 @@
 .tabs__element {
 	position: relative;
 	cursor: pointer;
-	color: var(--text-secondary);
+	color: var(--grey-3);
 	padding-bottom: 8px;
 } 
 

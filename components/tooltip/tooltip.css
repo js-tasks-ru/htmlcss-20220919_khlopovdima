@@ -20,7 +20,7 @@
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	color: var(--text-element);
+	color: var(--grey-2);
 	position: absolute;
 	bottom: calc(100% + 10px);
 	left: 50%;

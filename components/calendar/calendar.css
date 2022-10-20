@@ -54,11 +54,11 @@
 
 .calendar__item_grey {
 	background: rgba(160, 177, 245, 0.1); 
-	color: var(--text-color); 
+	color: var(--grey-8); 
 }
 
 .calendar__item_day {
-	color: var(--text-color);
+	color: var(--grey-8);
 	margin-bottom: 16px;
 }
 

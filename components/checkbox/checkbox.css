@@ -68,7 +68,7 @@
 
 .checkbox__input:disabled ~ .checkbox__state .checkbox__title{
 	cursor: default;
-	color: var(--border-preview);
+	color: var(--grey-2);
 }
 
 .elements__checkbox .checkbox__title {
@@ -106,7 +106,7 @@
 	width: 28px;
 	height: 28px;
 	background: var(--white-bg);
-	border: 1px solid var(--border-preview);
+	border: 1px solid var(--grey-2);
 	border-radius: 4px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .elements__checkbox .checkbox__input:disabled ~ .checkbox__state .checkbox__icon{
-	background: var(--border-preview);
+	background: var(--grey-2);
 	cursor: default;
 }
 

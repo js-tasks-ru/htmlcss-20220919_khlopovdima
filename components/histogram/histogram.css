@@ -5,7 +5,7 @@
 	font-weight: 400;
 	box-sizing: border-box;
 	background: var(--main-bg);
-	border: 1px solid var(--border-color);
+	border: 1px solid var(--grey-7);
 	border-radius: 8px;
 }
 .histogram__top {

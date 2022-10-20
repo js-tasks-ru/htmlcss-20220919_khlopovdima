@@ -1,8 +1,8 @@
 .preview {
 	padding: 60px 0 92px;
 	background: var(--gray-bg);
-	border-top: 1px solid var(--border-preview);
-	border-bottom: 1px solid var(--border-preview);
+	border-top: 1px solid var(--grey-2);
+	border-bottom: 1px solid var(--grey-2);
 }
 
 .preview__cards {
