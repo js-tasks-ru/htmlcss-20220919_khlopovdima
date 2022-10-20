@@ -17,7 +17,7 @@
 	line-height: 24px;
 	display: flex;
 	align-items: flex-end;
-	color: var(--text-color);
+	color: var(--font-color);
 }
 
 .calendar__wrapper {
@@ -44,7 +44,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	text-align: center;
-	color: var(--text-color);
+	color: var(--font-color);
 }
 
 .calendar__item_blue {
@@ -54,11 +54,11 @@
 
 .calendar__item_grey {
 	background: rgba(160, 177, 245, 0.1); 
-	color: var(--grey-8); 
+	color: var(--grey-2); 
 }
 
 .calendar__item_day {
-	color: var(--grey-8);
+	color: var(--grey-2);
 	margin-bottom: 16px;
 }
 
