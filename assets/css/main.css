@@ -36,6 +36,8 @@
 
 @import '/components/histogram/histogram.css';
 
+@import '/components/pages-toggle/pages-toggle.css';
+
 
 :root {
     --white:   #ffffff;
