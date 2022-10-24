@@ -103,6 +103,7 @@
 
 .header-toggle__image {
 	position: absolute;
+	fill: var(--font-color);
 }
 
 .header-toggle__image_sun {
