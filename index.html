@@ -59,29 +59,30 @@
                                 </g>
                             </svg>
                         </div>
-						<div class="navbar__wrapper">
-							<ul class="navbar__menu">
-								<li><a class="navbar__link" href="#">Components</a></li>
-								<li><a class="navbar__link" href="#">About</a></li>
-								<li><a class="navbar__link" href="#">Contact</a></li>
-							</ul>
-							
-                                
-                                <label class="toggle navbar__toggle">
-                                    <input type="checkbox" class="toggle__input" id="theme-changer">
-                                    <div class="toggle__state">
-                                        <div class="toggle__control">
-                                            <div class="toggle__icon"></div>
-                                        </div>
+
+                        <div class="header__top">
+                            <div class="navbar__wrapper">
+                                <ul class="navbar__menu">
+                                    <li><a class="navbar__link" href="#">Components</a></li>
+                                    <li><a class="navbar__link" href="#">About</a></li>
+                                    <li><a class="navbar__link" href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                            <label class="toggle header-toggle">
+                                <input type="checkbox" class="header-toggle__input" id="theme-changer">
+                                <div class="header-toggle__state">
+                                    <div class="header-toggle__control">
+                                        <div class="header-toggle__icon"></div>
                                     </div>
-                                    <svg class="toggle__image toggle__image_sun">
-                                        <use href="/assets/images/icons-sprite.svg#sun"></use>
-                                    </svg>
-                                    <svg class="toggle__image toggle__image_moon">
-                                        <use href="/assets/images/icons-sprite.svg#moon"></use>
-                                    </svg>
-                                </label>
-						</div>
+                                </div>
+                                <svg class="header-toggle__image header-toggle__image_sun">
+                                    <use href="/assets/images/icons-sprite.svg#sun"></use>
+                                </svg>
+                                <svg class="header-toggle__image header-toggle__image_moon">
+                                    <use href="/assets/images/icons-sprite.svg#moon"></use>
+                                </svg>
+                            </label>
+                        </div> 
                     </div>
                 <h1 class="header__title header__title-page">Reusable component library</h1>
             </header>
@@ -129,66 +130,66 @@
                                 <a class="card__wrapper" href="#" >
                                     <div class="elements">
                                         <div class="element elements__element">
-                                            <label class="elements__checkbox">
-                                                <input type="checkbox" class="checkbox__input">
-                                                <div class="checkbox__state">
-                                                    <div class="checkbox__control">
-                                                        <svg class="checkbox__icon">
+                                            <label class="element-checkbox">
+                                                <input type="checkbox" class="element-checkbox__input">
+                                                <div class="element-checkbox__state">
+                                                    <div class="element-checkbox__control">
+                                                        <svg class="element-checkbox__icon">
                                                             <use href="/assets/images/icons-sprite.svg#check"></use>
                                                         </svg>
                                                     </div>
-                                                    <div class="checkbox__title">Default</div>
+                                                    <div class="element-checkbox__title">Default</div>
                                                 </div>
                                             </label>
-                                            <label class="elements__checkbox">
-                                                <input type="checkbox" class="checkbox__input" checked>
-                                                <div class="checkbox__state">
-                                                    <div class="checkbox__control">
+                                            <label class="element-checkbox">
+                                                <input type="checkbox" class="element-checkbox__input" checked>
+                                                <div class="element-checkbox__state">
+                                                    <div class="element-checkbox__control">
                                                         <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                                         </svg>
                                                     </div>
-                                                    <div class="checkbox__title">Checked</div>
+                                                    <div class="element-checkbox__title">Checked</div>
                                                 </div>
                                             </label>
-                                            <label class="elements__checkbox">
-                                                <input type="checkbox" class="checkbox__input" disabled>
-                                                <div class="checkbox__state">
-                                                    <div class="checkbox__control">
-                                                        <svg class="checkbox__icon">
+                                            <label class="element-checkbox">
+                                                <input type="checkbox" class="element-checkbox__input" disabled>
+                                                <div class="element-checkbox__state">
+                                                    <div class="element-checkbox__control">
+                                                        <svg class="element-checkbox__icon">
                                                             <use href="/assets/images/icons-sprite.svg#check"></use>
                                                         </svg>
                                                     </div>
-                                                    <div class="checkbox__title">Disabled</div>
+                                                    <div class="element-checkbox__title">Disabled</div>
                                                 </div>
                                             </label>
                                         </div>
                                         <div class="element elements__element">
-                                            <label class="elements__radio">
-                                                <input type="radio" class="radio__input">
-                                                <div class="radio__state">
-                                                    <div class="radio__control">
-                                                        <div class="radio__icon"></div>
+                                            <label class="element-radio">
+                                                <input type="radio" class="element-radio__input">
+                                                <div class="element-radio__state">
+                                                    <div class="element-radio__control">
+                                                        <div class="element-radio__icon"></div>
                                                     </div>
-                                                    <div class="radio__title">Default</div>
+                                                    <div class="element-radio__title">Default</div>
                                                 </div>
                                             </label>
-                                            <label class="elements__radio">
-                                                <input type="radio" class="radio__input" checked>
-                                                <div class="radio__state">
-                                                    <div class="radio__control">
-                                                        <div class="radio__icon"></div>
+                                            <label class="element-radio">
+                                                <input type="radio" class="element-radio__input" checked>
+                                                <div class="element-radio__state">
+                                                    <div class="element-radio__control">
+                                                        <div class="element-radio__icon"></div>
                                                     </div>
-                                                    <div class="radio__title">Checked</div>
+                                                    <div class="element-radio__title">Checked</div>
                                                 </div>
                                             </label>
-                                            <label class="elements__radio">
-                                                <input type="radio" class="radio__input" disabled>
-                                                <div class="radio__state">
-                                                    <div class="radio__control">
-                                                        <div class="radio__icon"></div>
+                                            <label class="element-radio">
+                                                <input type="radio" class="element-radio__input" disabled>
+                                                <div class="element-radio__state">
+                                                    <div class="element-radio__control">
+                                                        <div class="element-radio__icon"></div>
                                                     </div>
-                                                    <div class="radio__title">Disabled</div>
+                                                    <div class="element-radio__title">Disabled</div>
                                                 </div>
                                             </label>
                                         </div>
