@@ -15,17 +15,38 @@
 			<div class="header header_size_small">
 				<div class="container">
 					<div class="navbar header_navbar">
-						<a href="logo">
-							<img class="header_logo" src="/pages/img/Frame 6.svg" alt="logo">
-						</a>
+						<div class="header__btn">
+							<button class="header__btn">
+							
+							</button>
+						</div>
+						<div class="header__logo">
+							<a href="logo">
+								<img src="/pages/img/Frame 6.svg" alt="logo">
+							</a>
+						</div>
+						
 						<div class="navbar__wrapper">
 							<ul class="navbar__menu">
 								<li><a class="navbar__link" href="#">Components</a></li>
 								<li><a class="navbar__link" href="#">About</a></li>
 								<li><a class="navbar__link" href="#">Contact</a></li>
 							</ul>
-							<div class="checkbox navbar__checkbox">
-
+							<div class="toggle navbar__toggle">
+									<svg class="toggle__image toggle__image_sun">
+										<use href="/assets/images/icons-sprite.svg#sun"></use>
+									</svg>
+									<label class="toggle">
+										<input type="checkbox" class="toggle__input">
+										<div class="toggle__state">
+											<div class="toggle__control">
+												<div class="toggle__icon"></div>
+											</div>
+										</div>
+									</label>
+									<svg class="toggle__image toggle__image_moon">
+										<use href="/assets/images/icons-sprite.svg#moon"></use>
+									</svg>
 							</div>
 						</div>
 					</div>
@@ -42,12 +63,40 @@
 								<a href="#" class="menu__item">Calendar</a>
 								<a href="#" class="menu__item">Histogram</a>
 								<a href="#" class="menu__item">Custom form elements</a>
-								<a href="#" class="menu__item">Main page</a>
+								<a href="#" class="menu__item menu__item_bottom">Main page</a>
 						</div>
 						<div class="component-section">
 							<h3 class="component-section__title">Name Element</h3>
 							<div class="component-section__body">
-									
+									<div class="component-section__top">
+
+									</div>
+									<div class="component-section__bottom">
+										<div class="component__tabs">
+											<input class="tabs__radio" type="radio" id="tab1" name="tabs" checked>
+											<input class="tabs__radio" type="radio" id="tab2" name="tabs">
+											
+												<ul class="tabs__menu">
+													<li>
+														<label for="tab1"class="tabs__item">
+															HTML
+														</label>
+													</li>
+													<li>
+														<label for="tab2" class="tabs__item">
+															CSS
+														</label>
+													</li>
+												</ul>
+											
+											<div class="tabs__tab-content tabs__tab_content-1">
+												Контент1
+											</div>
+											<div class="tabs__tab-content tabs__tab_content-2">
+												Контент2
+											</div>
+										</div>
+									</div>
 							</div>
 						</div>
 					</div>

@@ -16,5 +16,14 @@
 }
 
 .component-section__body {
-	padding: 32px 106px 64px 42px;
+	display: flex;
+	flex-direction: column;
+	padding: 32px 0 42px;
+}
+
+
+
+
+.component-section__bottom {
+	height: 436px;
 }
