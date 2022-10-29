@@ -70,7 +70,7 @@
 	border-bottom: 1px solid var(--grey-2);
 }
 
-#all-tab:checked ~ .tabs__inner > .tabs__content_media,
+#all-tab:checked ~ .tabs__inner > .tabs__content_all,
 #elements-tab:checked ~ .tabs__inner > .tabs__content_complex,
 #containers-tab:checked ~ .tabs__inner> .tabs__content_simple,
 #templates-tab:checked ~ .tabs__inner > .tabs__content_templates {
