@@ -1,0 +1,83 @@
+.tabs {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.tabs__radio {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	outline: none;
+}
+
+.tabs__nav {
+	margin-bottom: 6px;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Inter';
+	font-style: normal;
+	background: var(--main-bg);
+}
+
+.tabs__menu {
+	display: flex;
+	gap: 40px;
+	width: 100%;
+}
+
+.tabs__menu-element {
+	display: inline-flex;
+	padding: 8px 0;
+	position: relative;
+	cursor: pointer;
+	color: var(--grey-3);
+} 
+
+#all-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="all-tab"],
+#elements-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="elements-tab"],
+#containers-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="containers-tab"],
+#templates-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="templates-tab"] {
+	color: var(--active-text-color);
+}
+
+#all-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="all-tab"]::after,
+#elements-tab:checked ~  .tabs__nav .container .tabs__menu .tabs__menu-element[for="elements-tab"]::after,
+#containers-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="containers-tab"]::after,
+#templates-tab:checked ~ .tabs__nav .container .tabs__menu .tabs__menu-element[for="templates-tab"]::after {
+	display: block;
+}
+
+.tabs__menu > .tabs__menu-element::after {
+	display: none;
+	content: "";
+	position: absolute;
+	height: 5px;
+	width: 100%;
+	top: 100%;
+	color: var(--active-text-color);
+	background-color: var(--active-text-color);
+}
+
+.tabs__content  {
+	display: none;
+}
+
+.tabs__inner {
+	padding: 60px 0 92px;
+	background: var(--page-bg);
+	border-top: 1px solid var(--grey-2);
+	border-bottom: 1px solid var(--grey-2);
+}
+
+#all-tab:checked ~ .tabs__inner > .tabs__content_all,
+#elements-tab:checked ~ .tabs__inner > .tabs__content_complex,
+#containers-tab:checked ~ .tabs__inner> .tabs__content_simple,
+#templates-tab:checked ~ .tabs__inner > .tabs__content_templates {
+	display: flex;
+}
+.tabs__btn {
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+}

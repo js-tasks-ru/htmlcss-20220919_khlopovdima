@@ -20,7 +20,7 @@
 
 @import '/components/component-sectioin/component-section.css';
 
-@import '/components/pages/pages.css';
+@import '/components/page/page.css';
 
 @import '/components/button/button.css';
 
@@ -28,7 +28,7 @@
 
 @import '/components/avatar/avatar.css';
 
-@import '/components/navigation/navigation.css';
+@import '/components/tabs/tabs.css';
 
 @import '/components/tooltip/tooltip.css';
 
@@ -37,6 +37,19 @@
 @import '/components/histogram/histogram.css';
 
 @import '/components/pages-toggle/pages-toggle.css';
+
+@import '/components/toggler/toggler.css';
+
+@import '/components/checkbox/checkbox.css';
+
+@import '/components/radio/radio.css';
+
+@import '/components/element/element.css';
+
+@import '/components/input/input.css';
+
+@import '/components/burger-menu/burger-menu.css';
+
 
 
 :root {
@@ -57,15 +70,42 @@
     --grey-6:  #E5E5E5;
     --grey-7:  #ACB5BD;
     --grey-8:  #334D6E;
+    --grey-9:  #90A0B7;
     
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-2: var(--blue-2);
     --secondary: var(--purple);
+
+
+    --white-bg: var(--white);
+    --main-bg: var(--light-bg);
+    --font-color: var(--black);
+    --dark-bg: var(--black);
+    --light-bg: var(--white);
+    --grey-bg: var(--grey-5);
+    --text-primary: var(--black);
+    --active-text-color: var(--text-primary);
+    --page-bg: var(--grey-5);
+    --trigger-color: var(--black);
 }
 
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html[data-theme-dark] {
+    --main-bg: var(--black);
+    --font-color: var(--grey-1);
+    --dark-bg: var(--grey-1);
+    --light-bg: var(--grey-4);
+    --grey-bg: var(--grey-4);
+    --text-primary: var(--white);
+    --active-text-color: var(--white);
+    --page-title-text: var(--grey-4);
+    --page-bg: var(--grey-4);
+    --trigger-color: var(--primary);
 }

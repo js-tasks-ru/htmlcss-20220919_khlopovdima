@@ -3,7 +3,7 @@
 	width: 100%;
 	padding: 28px 26px 32px 26px;
 	box-sizing: border-box;
-	background: #FFFFFF;
+	background: var(--main-bg);
 	border: 1px solid #ACB5BD;
 	border-radius: 8px;
 }
@@ -17,7 +17,7 @@
 	line-height: 24px;
 	display: flex;
 	align-items: flex-end;
-	color: #334D6E;
+	color: var(--font-color);
 }
 
 .calendar__wrapper {
@@ -44,21 +44,21 @@
 	font-size: 16px;
 	line-height: 20px;
 	text-align: center;
-	color: #334D6E;
+	color: var(--font-color);
 }
 
 .calendar__item_blue {
 	color: #fff;
-	background: #4263EB;
+	background: var(--primary-2);
 }
 
 .calendar__item_grey {
 	background: rgba(160, 177, 245, 0.1); 
-	color: #334D6E; 
+	color: var(--grey-2); 
 }
 
 .calendar__item_day {
-	color: #90A0B7;
+	color: var(--grey-2);
 	margin-bottom: 16px;
 }
 

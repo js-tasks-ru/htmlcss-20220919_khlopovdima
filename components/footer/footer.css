@@ -8,7 +8,7 @@
 }
 .footer_large {
 	padding: 71px 0 136px;
-	color: var(--black);
+	color: var(--text-primary);
 }
 
 .footer__wrapper {

@@ -3,7 +3,7 @@
 	justify-content: center;
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
-	background: var(--white);
+	background: var(--main-bg);
 }
 
 .header_large {
@@ -18,15 +18,18 @@
 	display: flex;
 	align-items: center;
 }
+.header__img {
+	fill: var(--font-color);
+}
 
-.header__btn{
+.header__menu-open{
 	display: none;
 }
 
 .header__title {
 	font-weight: 500;
 	font-size: 50px;
-	color: var(--black);
+	color: var(--grey-4);
 	margin: 0;
 }
 
@@ -34,35 +37,104 @@
 	margin: 40px 0;
 }
 
+
+.header__top {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.header-toggle {
+	display: inline-block;
+	margin-left: 92px;
+	position: relative;
+}
+
+.header-toggle__image {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+.header-toggle__input {
+   position: absolute;
+   outline: none;
+   clip: rect(0,0,0,0);
+}
+
+.header-toggle__state {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   cursor: pointer;
+	margin-right: 32px;
+}
+
+.header-toggle__control {
+   position: relative;
+   display: flex;
+   box-sizing: border-box;
+   width: 52px;
+   height: 28px;
+   background: var(--white);
+   border: 1px solid var(--grey-2);
+   border-radius: 16px;
+}
+
+.header-toggle__icon {
+	display: inline-block;
+	position: absolute;
+	left: 2px;
+	top: calc(50%  - 24px/2);
+   width: 24px;
+   height: 24px;
+   background-color: var(--grey-2);
+	border-radius: 16px;
+	transform: translate(0);
+}
+
+.header-toggle__input:checked ~ .header-toggle__state .header-toggle__control {
+   background: var(--primary-2);
+   border-color: var(--primary-2);
+}
+
+.header-toggle__input:checked ~ .header-toggle__state .header-toggle__icon {
+   background-color: var(--light-bg);
+	left: 26px;
+}
+
+.header-toggle__image {
+	position: absolute;
+	fill: var(--font-color);
+}
+
+.header-toggle__image_sun {
+	top: 2px;
+	right: 90px;
+}
+
+.header-toggle__image_moon {
+	top: 2px;
+   left: 60px;
+}
+
 @media (max-width: 610px) {
 	.header__title {
 		font-size: 42px;
 		margin-left: 16px;
-		color: var(--grey-4)
 	}
 
-	.header__btn {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
+	.header__menu-open {
+		display: block;
 		border: none;
-		gap: 6px;
-		margin-left: 19px;
-		cursor: pointer;
-		width: 24px;
-		height: 24px;
-		background: var(--white);
-	}
-
-	.header__burger{
-		width: 18px;
-		height: 2px;
-		background-color: var(--grey-4);
+		position: absolute;
+		background: transparent;
+		padding: 5px 26px;
 	}
 
 	.header__logo {
 		margin: 0 auto;
+	}
+	.header__top {
+		display: none;
 	}
 }
 
