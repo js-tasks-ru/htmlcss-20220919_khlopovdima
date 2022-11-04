@@ -1,15 +1,15 @@
 .tooltip {
-	display: inline-flex;
+	display: inline-block;
 	position: relative;
 }
 
 .tooltip__trigger {
 	width: 24px;
 	height: 24px;
+	fill: var(--trigger-color);
 }
 
 .tooltip__helper {
-	display: none;
 	padding: 13px 21px;
 	background: var(--primary);
 	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
@@ -26,6 +26,8 @@
 	left: 50%;
 	transform: translateX(-50%);
 	white-space: nowrap;
+	transition: 0.3s;
+	opacity: 0;
 }
 
 .tooltip__helper::before {
@@ -39,20 +41,9 @@
 }
 
 .tooltip__trigger:hover ~ .tooltip__helper {
-	display: block;
+	opacity: 1;
 }
 
-.page_tooltip {
-	margin: auto;
-}
-
-.page_tooltip .tooltip__trigger {
-	fill: var(--trigger-color);
-}
-
-.page_tooltip .tooltip__helper{
-	display: block;
-}
 
 @media (max-width: 610px) {
 	.tooltip__helper {

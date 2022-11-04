@@ -12,46 +12,73 @@
 </head>
 <body>
 	<div class="pages">
-			<div class="header header_size_small">
-				<div class="container">
-					<div class="navbar header_navbar">
-						<div class="header__btn">
-							<button class="header__btn">
-							
-							</button>
-						</div>
-						<div class="header__logo">
-							<a href="logo">
-								<img src="/pages/img/Frame 6.svg" alt="logo">
-							</a>
-						</div>
-						
-						<div class="navbar__wrapper">
-							<ul class="navbar__menu">
-								<li><a class="navbar__link" href="#">Components</a></li>
-								<li><a class="navbar__link" href="#">About</a></li>
-								<li><a class="navbar__link" href="#">Contact</a></li>
-							</ul>
-							<div class="toggle navbar__toggle">
-									<svg class="toggle__image toggle__image_sun">
-										<use href="/assets/images/icons-sprite.svg#sun"></use>
-									</svg>
-									<label class="toggle">
-										<input type="checkbox" class="toggle__input">
-										<div class="toggle__state">
-											<div class="toggle__control">
-												<div class="toggle__icon"></div>
-											</div>
-										</div>
-									</label>
-									<svg class="toggle__image toggle__image_moon">
-										<use href="/assets/images/icons-sprite.svg#moon"></use>
-									</svg>
+		<div class="header header_size_small">
+			<div class="container">
+				<div class="navbar header__navbar">
+					<button class="header__menu-open" id="burger-menu-open">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+					<div class="burger-menu" id="burger-menu">
+						<div class="burger-menu__header">
+							<div class="burger-menu__btn">
+									<button class="burger-menu__close" id="burger-menu-close">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 6L6 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M6 6L18 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>                    
+									</button>
 							</div>
-						</div>
+							<div class="burger-menu__logo">
+									<a href="logo">
+										<img src="/pages/img/Frame 6.svg" alt="logo">
+									</a>
+							</div>
+						</div> 
+						<div class="menu burger-menu__navigation">
+							<h4 class="menu__title">Components</h4>
+							<a href="#" class="menu__item">Modal</a>
+							<a href="#" class="menu__item">Tooltip</a>
+							<a href="#" class="menu__item">Avatar</a>
+							<a href="#" class="menu__item">Calendar</a>
+							<a href="#" class="menu__item">Histogram</a>
+							<a href="#" class="menu__item">Custom form elements</a>
+							<a href="#" class="menu__item">Main page</a>
+						</div>   
 					</div>
+					<div class="header__logo">
+						<svg class="header__img" width="110" height="32" viewBox="0 0 110 32" fill="" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_16746_155)">
+							<rect y="1" width="30" height="30" fill=""/>
+							<rect x="38" width="32" height="32" rx="16" fill=""/>
+							<path d="M78 0L110 32H78V0Z" fill=""/>
+							</g>
+						</svg>
+					</div>
+
+					<div class="header__top">
+						
+						<label class="header-toggle">
+							<input type="checkbox" class="header-toggle__input" id="theme-changer">
+							<div class="header-toggle__state">
+									<div class="header-toggle__control">
+										<div class="header-toggle__icon"></div>
+									</div>
+							</div>
+							<svg class="header-toggle__image header-toggle__image_sun">
+									<use href="/assets/images/icons-sprite.svg#sun"></use>
+							</svg>
+							<svg class="header-toggle__image header-toggle__image_moon">
+									<use href="/assets/images/icons-sprite.svg#moon"></use>
+							</svg>
+						</label>
+					</div> 
 				</div>
 			</div>
+		</div>
 
 				<div class="container">
 					<div class="pages__wrapper">
@@ -72,18 +99,18 @@
 
 									</div>
 									<div class="component-section__bottom">
-										<div class="component__tabs">
-											<input class="tabs__radio" type="radio" id="tab1" name="tabs" checked>
-											<input class="tabs__radio" type="radio" id="tab2" name="tabs">
+										<div class="component-tabs">
+											<input class="component-tabs__radio" type="radio" id="tab1" name="tabs" checked>
+											<input class="component-tabs__radio" type="radio" id="tab2" name="tabs">
 											
-												<ul class="tabs__menu">
+												<ul class="component-tabs__menu">
 													<li>
-														<label for="tab1"class="tabs__item">
+														<label for="tab1"class="component-tabs__item">
 															HTML
 														</label>
 													</li>
 													<li>
-														<label for="tab2" class="tabs__item">
+														<label for="tab2" class="component-tabs__item">
 															CSS
 														</label>
 													</li>

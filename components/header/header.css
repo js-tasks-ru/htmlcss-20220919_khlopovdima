@@ -116,6 +116,35 @@
    left: 60px;
 }
 
+.header__pages {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 761px) {
+	.header__pages .header__menu-open {
+		display: block;
+		border: none;
+		position: absolute;
+		background: transparent;
+		padding: 5px 26px;
+	}
+	.header__pages .header__logo {
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.header__pages .header__menu-open {
+		display: block;
+		position: relative;
+		background: transparent;
+		stroke: var(--font-color);
+	}
+	.header__pages .header-toggle {
+		margin-left: 34px;
+	}
+}
+
 @media (max-width: 610px) {
 	.header__title {
 		font-size: 42px;
