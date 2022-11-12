@@ -23,7 +23,7 @@
    box-sizing: border-box;
    width: 28px;
    height: 28px;
-   background: var(--white);
+   background: transparent;
    border: 1px solid var(--grey-2);
    border-radius: 14px;
 }
@@ -71,3 +71,8 @@
    color: var(--grey-2);
 }
 
+.radio__elements {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}

@@ -26,3 +26,11 @@
 	padding: 64px 90px;
 }
 
+.component-section__elements {
+	display: flex;
+	gap: 30px;
+}
+
+.component-section__top {
+	margin-bottom: 30px;
+}
