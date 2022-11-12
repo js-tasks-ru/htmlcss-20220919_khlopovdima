@@ -83,6 +83,18 @@
 	margin: 16px 0px 0px;
 }
 
+.calendar-page__html{
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}
+
+.calendar-page__css {
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}
 @media (max-width: 735px) {
 	.calendar_page {
 		max-width: 140px;
