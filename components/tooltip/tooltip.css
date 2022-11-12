@@ -45,51 +45,17 @@
 	opacity: 1;
 }
 
-.tooltip-page {
-	display: inline-block;
-	position: relative;
+.tooltip_page {
+	padding-top: 120px;
 }
 
-.tooltip-page__trigger {
-	padding-top: 150px;
-	position: relative;
-	width: 24px;
-	height: 24px;
-	fill: var(--trigger-color);
-}
-
-.tooltip-page__helper {
-	display: block;
-	padding: 13px 21px;
-	background: var(--primary);
-	box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-	border-radius: 10px;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	text-align: center;
-	color: var(--grey-2);
-	position: absolute;
-	bottom: calc(15% + 10px);
-	left: 50%;
-	transform: translateX(-50%);
-	white-space: nowrap;
-	transition: 0.3s;
-}
-
-.tooltip-page__helper::before {
-	content: "";
-	border: 10px solid transparent;
-	border-top: 6px solid var(--primary);
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	transform: translateX(-50%);
+.tooltip__helper_opened {
+	opacity: 1;
+	bottom: calc(16% + 10px);
 }
 
 .tooltip-page__html {
+	width: 100%;
 	font-size: 12px;
 	line-height: 16px;
 	overflow-x: auto;

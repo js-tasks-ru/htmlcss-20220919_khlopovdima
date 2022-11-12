@@ -107,24 +107,18 @@
 											</div>
 									</div>
 									<div class="component-section__bottom">
-										<div class="tabs-page">
-											<input class="tabs-page__radio" type="radio" id="tab1" name="tabs" checked>
-											<input class="tabs-page__radio" type="radio" id="tab2" name="tabs">
+										<div class="tabs">
+											<input class="tabs__radio" type="radio" id="tab1" name="tabs" checked>
+											<input class="tabs__radio" type="radio" id="tab2" name="tabs">
 											
-												<ul class="tabs-page__menu">
-													<li>
-														<label for="tab1"class="tabs-page__item">
-															HTML
-														</label>
-													</li>
-													<li>
-														<label for="tab2" class="tabs-page__item">
-															CSS
-														</label>
-													</li>
-												</ul>
+												<div class="tabs__nav">
+													<div class="tabs__menu">
+														<label for="tab1" class="tabs__menu-element">HTML</label>
+														<label for="tab2" class="tabs__menu-element">CSS</label>
+													</div>
+												</div>
 											
-											<div class="tabs-page__tab-content tabs-page__tab_content-1">
+											<div class="tabs__content tabs__content-html">
 													<pre class="tooltip-page__html"><code data-language="html">&lt;div class=&quot;tooltip&quot;&gt;
 	&lt;svg class=&quot;tooltiptrigger&quot;&gt;
 		&lt;use href=&quot;/assets/images/icons-sprite.svg#help&quot;&gt;&lt;/use&gt;
@@ -132,7 +126,7 @@
 	&lt;div class=&quot;tooltiphelper&quot;&gt;Helper Text&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 											</div>
-											<div class="tabs-page__tab-content tabs-page__tab_content-2">
+											<div class="tabs__content tabs__content-css">
 													<pre class="tooltip-page__css"><code data-language="css">
 .tooltip {
 	display: inline-flex; 
