@@ -56,6 +56,19 @@
 	padding: 12px 16px;
 }
 
+.histogram-page__html {
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}
+
+.histogram-page__css {
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}
+
 @media (max-width: 735px) {
 	.histogram_page {
 		margin: 0 auto;
