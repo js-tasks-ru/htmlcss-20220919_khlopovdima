@@ -70,14 +70,14 @@
 	padding: 10px 0 15px 0;
 }
 
-.modal-page__html {
+.modal__html {
 	width: 100%;
 	font-size: 12px;
 	line-height: 16px;
 	overflow-x: auto;
 }
 
-.modal-page__css {
+.modal__css {
 	width: 100%;
 	font-size: 12px;
 	line-height: 16px;

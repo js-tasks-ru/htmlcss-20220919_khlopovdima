@@ -22,10 +22,6 @@
 	padding: 32px 0 42px;
 }
 
-.component-section__tooltip {
-	padding: 64px 90px;
-}
-
 .component-section__elements {
 	display: flex;
 	gap: 30px;

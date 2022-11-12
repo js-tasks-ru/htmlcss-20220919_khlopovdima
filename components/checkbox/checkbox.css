@@ -76,3 +76,16 @@
 	flex-direction: column;
 	gap: 10px;
 }
+
+.checkbox__html {
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}
+
+.checkbox__css {
+	font-size: 12px;
+	line-height: 16px;
+	overflow-x: auto;
+}

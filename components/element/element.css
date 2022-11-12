@@ -150,18 +150,7 @@
    color: var(--grey-2);
 }
 
-.elements-page__html {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
 
-.elements-page__css {
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
 
 @media (max-width: 735px) {
 	.element-checkbox__control {
