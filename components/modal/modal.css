@@ -70,19 +70,6 @@
 	padding: 10px 0 15px 0;
 }
 
-.modal__html {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
-
-.modal__css {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
 
 @media (max-width: 735px) {
 	.modal__body_page {

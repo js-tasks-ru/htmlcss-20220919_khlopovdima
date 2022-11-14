@@ -10,20 +10,6 @@
 	object-fit: cover;
 }
 
-.avatar__html {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
-
-.avatar__css {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
-
 @media (max-width: 610px) {
 	.avatar {
 		width: 116px;

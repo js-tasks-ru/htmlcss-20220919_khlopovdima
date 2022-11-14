@@ -54,19 +54,6 @@
 	bottom: calc(16% + 10px);
 }
 
-.tooltip__html {
-	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
-
-.tooltip__css {
-	font-size: 12px;
-	line-height: 16px;
-	overflow-x: auto;
-}
-
 
 .tooltip_element {
 	padding: 64px 90px;
