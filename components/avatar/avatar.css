@@ -10,7 +10,6 @@
 	object-fit: cover;
 }
 
-
 @media (max-width: 610px) {
 	.avatar {
 		width: 116px;

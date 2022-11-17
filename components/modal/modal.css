@@ -1,18 +1,23 @@
 .modal__btn-close {
 	width: 20px;
 	height: 20px;
-	padding: 15px 15px 0 0;
+	padding: 2px;
+	border: none;
+	background: transparent;
 }
 
 .modal {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background:rgba(196, 196, 196, 1);
+	z-index: 10;
 }
 .modal__body {
+	padding: 20px;
 	position: absolute;
 	margin: 0 auto;
 	top: 50%;
@@ -36,59 +41,50 @@
 	font-size: 20px;
 	line-height: 24px;
 	color: var(--font-color);
-	margin-top: 30px;
 }
 .modal__text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--font-color);
-	padding: 14px 40px 33px 40px;
+	padding: 14px 0px 10px 00px;
 }
 
 .modal_page {
+	display: block;
 	position: relative;
 	width: 100%;
-	height: 70%;
+	height: 70%; 
 }
 
-.modal_page .modal__btn-close {
-	padding: 2px;
-	border: none;
-	background: transparent;
-}
-
-.modal_page .modal__top-title {
-	font-size: 16px;
-	line-height: 16px;
-	margin-top: 15px;
-}
-
-.modal_page .modal__text {
-	font-size: 10px;
-	line-height: 16px;
-	padding: 10px 0 15px 0;
-}
-.modal_page .modal__body {
+.modal__body_page {
 	width: 80%;
 	height: 80%;
 	padding: 10px;
 	pointer-events: none;
 }
 
+.modal__text_page {
+	font-size: 10px;
+	line-height: 16px;
+	padding: 10px 0 15px 0;
+}
+
+
 @media (max-width: 735px) {
-	.modal_page .modal__body {
+	.modal__body_page {
+		padding: 10px;
 		width: 80%;
 		height: 70%;
 	}
 
-	.modal_page .modal__top-title {
+	.modal__top-title {
 		font-size: 8px;
 		line-height: 10px;
 		margin: 10px 0 0 10px;
 	}
 
-	.modal_page .modal__text {
+	.modal__text {
 		font-size: 6px;
 		line-height: 8px;
 		padding: 8px;
@@ -97,7 +93,7 @@
 }
 
 @media (max-width: 610px) {
-	.modal_page .modal__text {
+	.modal__text {
 		font-size: 6px;
 		line-height: 6px;
 		padding: 8px;
@@ -105,7 +101,7 @@
 }
 
 @media (max-width: 410px) {
-	.modal_page .modal__text {
+	.modal__text {
 		font-size: 3px;
 	}
 }

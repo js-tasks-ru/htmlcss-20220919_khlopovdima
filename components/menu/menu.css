@@ -12,7 +12,7 @@
 .menu__title {
 	font-size: 20px;
 	line-height: 26px;
-	color: var(--black-2);
+	color: var(--text-primary);
 	margin-bottom: 16px;
 }
 
@@ -20,7 +20,7 @@
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
-	color: var(--black);
+	color: var(--text-primary);
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 4px;
@@ -31,4 +31,10 @@
 
 .menu__item_bottom {
 	padding-top: 72px;
+}
+
+@media (max-width: 761px) {
+	.menu {
+		display: none;
+	}
 }

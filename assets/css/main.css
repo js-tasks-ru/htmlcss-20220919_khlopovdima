@@ -50,6 +50,8 @@
 
 @import '/components/burger-menu/burger-menu.css';
 
+@import '/components/theme/theme.css';
+
 
 
 :root {
@@ -90,6 +92,7 @@
     --active-text-color: var(--text-primary);
     --page-bg: var(--grey-5);
     --trigger-color: var(--black);
+    --pages-bg: var(--grey-6);
 }
 
 
@@ -108,4 +111,5 @@ html[data-theme-dark] {
     --page-title-text: var(--grey-4);
     --page-bg: var(--grey-4);
     --trigger-color: var(--primary);
+    --pages-bg: var(--grey-4);
 }

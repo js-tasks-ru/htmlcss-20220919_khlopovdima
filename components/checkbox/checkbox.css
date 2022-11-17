@@ -24,7 +24,7 @@
 	width: 28px;
 	height: 28px;
 	background: var(--main-bg);
-	border: 1px solid var(--border-preview);
+	border: 1px solid var(--grey-2);
 	border-radius: 4px;
 }
 
@@ -69,4 +69,10 @@
 .checkbox__input:disabled ~ .checkbox__state .checkbox__title{
 	cursor: default;
 	color: var(--grey-2);
+}
+
+.checkbox__elements {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
