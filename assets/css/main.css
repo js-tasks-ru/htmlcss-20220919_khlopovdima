@@ -1,16 +1,16 @@
-@import '../fonts/fonts.css';
+@import '/assets/fonts/fonts.css';
 
-@import '../../components/page/page.css';
+@import '/components/page/page.css';
 
-@import '../../components/header/header.css';
+@import '/components/header/header.css';
 
-@import '../../components/footer/footer.css';
+@import '/components/footer/footer.css';
 
-@import '../../components/preview/preview.css';
+@import '/components/preview/preview.css';
 
-@import '../../components/container/container.css';
+@import '/components/container/container.css';
 
-@import '../../components/card/card.css';
+@import '/components/card/card.css';
 
 @import '/components/navbar/navbar.css';
 
